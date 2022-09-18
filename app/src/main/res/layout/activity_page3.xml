@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="271dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="162dp"
+            android:layout_height="96dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="224dp"
+            android:layout_marginBottom="534dp"
+            app:cardCornerRadius="43dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="206dp"
+            android:layout_marginBottom="460dp"
+            android:text="Musify"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="641dp"
+            android:backgroundTint="@color/black"
+            android:text="Sign up"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="359dp"
+            android:background="@drawable/shape_rectangle"
+            android:hint="Name"
+            android:padding="15dp"
+            android:textColorHint="#FFC107"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="279dp"
+            android:background="@drawable/shape_rectangle"
+            android:hint="Email"
+            android:padding="15dp"
+            android:textColorHint="#FFC107"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="93dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="73dp"
+            android:text="Forget Your Password?"
+            android:textColor="#FF9800"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="102dp"
+            android:background="@drawable/button"
+            android:text="Sign in"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
